@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="sign.css">
+</head>
+<body>
+    <div class="container">
+        <div class="form">
+            <div class="buttons">
+                <div id="btn"></div>
+                <button type="button" class="btn1" onclick="login()">Log In</button>
+                <button type="button" class="btn2" onclick="signup()">Sign Up</button>
+            </div>
+            <div id="login-content" class="form-content">
+                <input type="text" class="input" placeholder="User Id" required >
+                <input type="password" class="input" placeholder="Enter Password" required >
+                <input type="checkbox" class="box" ><span>Remember me</span>
+                <button type="submit" class="submit-btn">LOGIN</button>
+            </div>
+            <form id="register-content" class="form-content">
+                <input type="text" class="input" placeholder="User Id" required minlength="4">
+                <input type="email" class="input" placeholder="Email Id" required>
+                <input type="password" class="input" placeholder="Enter Password" required >
+                <input type="checkbox" class="box" ><span>I Agree To the Terms & Conditions</span>
+                <button type="submit" class="submit-btn">SIGNUP</button>
+            </form> 
+        </div>
+    </div>
+
+<script>
+    function signup(){
+        document.getElementById("login-content").style.left= "-400px";
+        document.getElementById("register-content").style.left = "480px"
+        document.getElementById("btn").style.left = "110px"
+        document.getElementById("register-content").style.width= "280px"
+    }
+
+    function login(){
+        document.getElementById("login-content").style.left = "480px";
+        document.getElementById("register-content").style.left = "-900px";
+        document.getElementById("btn").style.left = "0px";
+    }
+</script>
+
+</body>
+</html>
