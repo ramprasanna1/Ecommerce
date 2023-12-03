@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="logo.png">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        padding: 0;
+        margin: 0;
+        background-color: aliceblue;
+        font-family: sans-serif;
+    }
+.container{
+    display: flex;
+    gap: 2pxpx;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 20px 90px;
+    background-color: aliceblue;
+
+}
+.div{
+    width: 270px;
+    height: 300px;
+    padding-top: 20px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(255, 255, 255);
+}
+
+img{
+    width: 250px;
+    height: 170px;
+}
+
+img:hover{
+    transform: scale(1.03);
+}
+a{
+   text-decoration: none;
+}
+h1{
+    left: 30px;
+    top: 80px;
+}
+.con{
+    position: relative;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    padding-bottom: 5px;
+    margin-right: 45px;
+}
+p{
+    font-weight: bold;
+    margin-left: 50px;
+    background-color: rgb(255, 255, 255);
+    font-size: 20px;
+    color: black;
+}
+span p {
+    font-size: medium;
+    margin-top: 10px;
+    margin-left: 20px;
+    cursor: pointer;
+
+}
+.rate{
+    margin-left: 60px;
+    margin-top: 15px;
+    border-radius: 20px;
+    background-color: white;
+}
+.rate p{
+    color: green;
+}
+.img img{
+    width: 40px;
+    height: 40px;
+}
+.img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    cursor: pointer;
+}
+.img p{
+    margin-right: 60px;
+    background-color: aliceblue;
+}
+.words p{
+    background-color: aliceblue;
+}
+.words{
+    margin-left: 40px;
+    margin-top: 50px;
+}
+.words h1{
+    margin-left: 50px;
+}
+
+.top{
+    width: 100%;
+    height: 60px;
+    background-color: rgb(198, 245, 237);
+    border-radius: 1px 1px 20px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.top img{
+    background: none;
+    width: 20%;
+    height: 60px;
+}
+.top input{
+    background-color: aliceblue;
+    outline: none;
+    border: 1px solid cyan;
+    box-shadow: 1px 1px 20px 2px rgb(166, 255, 255);
+    height: 30px;
+    width: 50%;
+    border-radius: 20px;
+    text-rendering: auto;
+    font-size: large;
+    
+}
+.top a{
+    background: none;
+}.top p{
+    font-size: larger;
+    color: rgb(0, 0, 0);
+    padding-bottom: 2px;
+    background-color: rgb(198, 245, 237);
+}
+.top button{
+    background-color: rgb(140, 197, 247);
+    height: 30px;
+    width: 40px;
+    border-radius: 20px;
+    outline: none;
+    border: 0;
+    color: black;
+    font-size: 13px;
+    margin-left: -40px;
+}
+.top p:hover{
+    cursor: pointer;
+}
+.footer{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(0, 0, 0);
+    margin-top: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer a p{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+.footer a{
+    background-color: rgb(0, 0, 0);
+}
+@media (max-width: 600px) {
+    .top button{
+        margin-left: 3px;
+        border-radius: 50%;
+        width: 100px;
+        height: 30px;
+    }
+}
+
+
+</style>
+<body>
+    <div class="head">
+        <div class="top">
+            <img src="logo.png">
+            <input type="text"><button>Go</button>
+            <p>Cart</p>
+            <br> <p>Help</p>
+            <br><a href="sign.html"><p>Sign Up</p></a>
+        </div>
+    </div>
+    <div class="words">
+        <h1>Results</h1>
+        <p>Price and other details may vary based on product size and color.</p>
+    </div>
+    <div class="container">
+        <a href="sports.html">
+            <div class="div" >
+                <div class="con"></div><img src="th (1).jpeg">
+                <span><p>Salomon Men's X Ultra Pioneer Aero Hiking Shoes for Men</p></span>
+                <div class="rate"><p>$59.67</p></div>
+            </div>
+        </a>
+        <a href="">
+            <div class="div">
+                <div class="con"></div>
+                <img src="https://m.media-amazon.com/images/I/71sf6IVDYxL._AC_UL320_.jpg">
+            <span><p>adidas Men's Lite Racer Adapt 4.0</p></span>
+            <div class="rate"><p>$37.80</p></div>
+            </div>
+        </a>
+        <a href="">
+            <div class="div">
+                <div class="con"></div>
+                <img src="https://m.media-amazon.com/images/I/71rLqRMkt0L._AC_UL320_.jpg" alt="">
+                <span><p>adidas Men's Terrex Ax4</p></span>
+                <div class="rate"><p>$70</p></div>
+            </div>
+        </a>
+        <a href="">
+            <div class="div">
+                <div class="con"></div>
+                <img src="https://m.media-amazon.com/images/I/51l7n7bEfRL._AC_UL320_.jpg" alt="">
+                <span><p>ASICS Men's Gel-Contend 7 Running Shoe</p></span>
+                <div class="rate"><p>$59</p></div>
+            </div>
+        </a>
+        <a href="">
+            <div class="div">
+                <div class="con"></div>
+                <img src="https://m.media-amazon.com/images/I/71GjvGcljJL._AC_UL320_.jpg" alt="">
+                <span><p>Nike DM0825-101 DM0825-101 Unisex Adult</p></span>
+                <div class="rate"><p>$67.68</p></div>
+            </div>
+        </a>
+        <a href="">
+            <div class="div">
+                <div class="con"></div>
+                <img src="https://m.media-amazon.com/images/I/61ki+zMhZQL._AC_UL320_.jpg" alt="">
+                <span><p>Erphpre Paul Men's Loafers Velvet Gold Buckle Party Prom Shoes</p></span>
+                <div class="rate"><p>$55.95</p></div>
+            </div>
+        </a>
+        <a href="">
+            <div class="div">
+                <div class="con"></div>
+                <img src="https://m.media-amazon.com/images/I/51KDOlSDIaL._AC_UL320_.jpg" alt="">
+                <span><p>Cole Haan Men's The Go-to Wing Oxford</p></span>
+                <div class="rate"><p>$78.95</p></div>
+            </div>
+        </a>
+        <a href="">
+            <div class="div">
+                <div class="con"></div>
+                <img src="https://m.media-amazon.com/images/I/81LPswU4eWL._AC_UL320_.jpg" alt="">
+                <span><p>Joomra Whitin Men's Supportive Running Shoes Cushioned Athletic Sneakers</p></span>
+                <div class="rate"><p>$43.99 </p></div>
+            </div>
+        </a>
+        <a href="">
+            <div class="div">
+                <div class="con"></div>
+                <img src="https://m.media-amazon.com/images/I/71z3eS37oPL._AC_UL320_.jpg" alt="">
+                <span><p>Mens Running Shoes Slip-on Walking Sneakers Lightweight Breathable Casual Soft Sole Trainers</p></span>
+                <div class="rate"><p>$68.99 </p></div>
+            </div>
+        </a>
+        <a href="">
+            <div class="div">
+                <div class="con"></div>
+                <img src="https://m.media-amazon.com/images/I/61jWkbBolQL._AC_UL320_.jpg" alt="">
+                <span><p>Hello MrLin Men's Running Shoes Non Slip Athletic Tennis Walking Blade Type Sneakers Hip Hop</p></span>
+                <div class="rate"><p>$73.99 </p></div>
+            </div>
+        </a>
+        <a href="">
+            <div class="div">
+                <div class="con"></div>
+                <img src="https://m.media-amazon.com/images/I/81LAF3x9+HL._AC_UL320_.jpg" alt="">
+                <span><p>Autper Air Running Shoes for Men Comfortable Trail Tennis Mens Athletic Sneakers for Sport Gym Jogging US 7-13</p></span>
+                <div class="rate"><p>$14</p></div>
+            </div>
+        </a>
+        <a href="">
+            <div class="div">
+                <div class="con"></div>
+                <img src="https://m.media-amazon.com/images/I/610-4jTqVvL._AC_UL320_.jpg" alt="">
+                <span><p>ASICS Men's Gel-Venture 8 Running Shoes</p></span>
+                <div class="rate"><p>$83.93 </p></div>
+            </div>
+        </a>
+        
+    </div>
+    <div class="img">
+        <img src="back-arrow.png" alt="">
+        <p>1 2 3 4 . . . </p>
+        <img src="next-arrow.png" alt="">
+    </div>
+    <div class="footer">
+        <a href=""><p>Back To Top</p></a>
+    </div>
+</body>
+</html>

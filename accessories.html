@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="logo.png">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        padding: 0;
+        margin: 0;
+        background-color: aliceblue;
+        font-family: sans-serif;
+    }
+.container{
+    display: flex;
+    gap: 2pxpx;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 20px 90px;
+    background-color: aliceblue;
+
+}
+.div{
+    width: 270px;
+    height: 300px;
+    padding-top: 20px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(255, 255, 255);
+}
+
+img{
+    width: 250px;
+    height: 170px;
+}
+
+img:hover{
+    transform: scale(1.03);
+}
+a{
+   text-decoration: none;
+}
+h1{
+    left: 30px;
+    top: 80px;
+}
+.con{
+    position: relative;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    padding-bottom: 5px;
+    margin-right: 45px;
+}
+p{
+    font-weight: bold;
+    margin-left: 50px;
+    background-color: rgb(255, 255, 255);
+    font-size: 20px;
+    color: black;
+}
+span p {
+    font-size: medium;
+    margin-top: 10px;
+    margin-left: 20px;
+    cursor: pointer;
+
+}
+.rate{
+    margin-left: 60px;
+    margin-top: 15px;
+    border-radius: 20px;
+    background-color: white;
+}
+.rate p{
+    color: green;
+}
+.img img{
+    width: 40px;
+    height: 40px;
+}
+.img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    cursor: pointer;
+}
+.img p{
+    margin-right: 60px;
+    background-color: aliceblue;
+}
+.words p{
+    background-color: aliceblue;
+}
+.words{
+    margin-left: 40px;
+    margin-top: 50px;
+}
+.words h1{
+    margin-left: 50px;
+}
+
+.top{
+    width: 100%;
+    height: 60px;
+    background-color: rgb(198, 245, 237);
+    border-radius: 1px 1px 20px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.top img{
+    background: none;
+    width: 20%;
+    height: 60px;
+}
+.top input{
+    background-color: aliceblue;
+    outline: none;
+    border: 1px solid cyan;
+    box-shadow: 1px 1px 20px 2px rgb(166, 255, 255);
+    height: 30px;
+    width: 50%;
+    border-radius: 20px;
+    text-rendering: auto;
+    font-size: large;
+    
+}
+.top a{
+    background: none;
+}.top p{
+    font-size: larger;
+    color: rgb(0, 0, 0);
+    padding-bottom: 2px;
+    background-color: rgb(198, 245, 237);
+}
+.top button{
+    background-color: rgb(140, 197, 247);
+    height: 30px;
+    width: 40px;
+    border-radius: 20px;
+    outline: none;
+    border: 0;
+    color: black;
+    font-size: 13px;
+    margin-left: -40px;
+}
+.top p:hover{
+    cursor: pointer;
+}
+.footer{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(0, 0, 0);
+    margin-top: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer a p{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+.footer a{
+    background-color: rgb(0, 0, 0);
+}
+@media (max-width: 600px) {
+    .top button{
+        margin-left: 3px;
+        border-radius: 50%;
+        width: 100px;
+        height: 30px;
+    }
+}
+
+
+
+</style>
+<body>
+    <div class="head">
+        <div class="top">
+            <img src="logo.png">
+            <input type="text"><button>Go</button>
+            <p>Cart</p>
+            <br> <p>Help</p>
+            <br><a href="sign.html"><p>Sign Up</p></a>
+        </div>
+    </div>
+    <div class="words">
+        <h1>Results</h1>
+        <p>Price and other details may vary based on product size and color.</p>
+    </div>
+    <div class="container">
+        <a href="">
+            <div class="div" >
+                <div class="con"></div><img src="https://m.media-amazon.com/images/I/61M5ikmU8cL._AC_UL320_.jpg">
+                <span><p>Dashboard Phone Holder,Powerful Vacuum Suction+Flexible Arm 360 Adjustable Car Phone Holder</p></span>
+                <div class="rate"><p>$13.67</p></div>
+            </div>
+        </a>
+        <a href="">
+            <div class="div">
+                <div class="con"></div>
+                <img src="https://m.media-amazon.com/images/I/51GP6kJCPQL._AC_UL320_.jpg">
+            <span><p>4 Ports USB Car Charger USB Adapter with Voltmeter,Type C Port PD 3.1/QC 3.0 Super Fast Charging Car Cigarette Light</p></span>
+            <div class="rate"><p>$8</p></div>
+            </div>
+        </a>
+        <a href="">
+            <div class="div">
+                <div class="con"></div>
+                <img src="https://m.media-amazon.com/images/I/71swB7TV0VL._AC_UL320_.jpg" alt="">
+                <span><p>Tesla Model Y Wheel Cover, 19 inch Wheel Hubcaps Compatible with 2020-2023 Tesla Model Y Accessories,</p></span>
+                <div class="rate"><p>$94</p></div>
+            </div>
+        </a>
+        <a href="">
+            <div class="div">
+                <div class="con"></div>
+                <img src="https://m.media-amazon.com/images/I/71ZguOnM+JS._AC_UL320_.jpg" alt="">
+                <span><p>Yoper Interior Dome Map LED Light Kit Package for Compatibility Table Car Model (41MM+T10)</p></span>
+                <div class="rate"><p>$10</p></div>
+            </div>
+        </a>
+        <a href="">
+            <div class="div">
+                <div class="con"></div>
+                <img src="https://m.media-amazon.com/images/I/612215ZRpeL._AC_UL320_.jpg" alt="">
+                <span><p>EL Wire Interior Car LED Strip Lights, USB Auto Neon Light Strip with Sewing Edge, 16FT Electroluminescent</p></span>
+                <div class="rate"><p>$9.88</p></div>
+            </div>
+        </a>
+        <a href="">
+            <div class="div">
+                <div class="con"></div>
+                <img src="https://m.media-amazon.com/images/I/610DWLAY5hL._AC_UL320_.jpg" alt="">
+                <span><p>Ziciner 4 PCS USB LED Car Interior Atmosphere Lamp, Portable Mini LED Night Light, Plug-in USB Interface Trunk</p></span>
+                <div class="rate"><p>$5.95</p></div>
+            </div>
+        </a>
+        <a href="">
+            <div class="div">
+                <div class="con"></div>
+                <img src="https://m.media-amazon.com/images/I/81kXtJCHphL._AC_UL320_.jpg" alt="">
+                <span><p>17 Pcs Car Seat Cover Full Set for Women Universal Fit Car Front Rear Seat Covers Fluffy Steering Wheel Covers </p></span>
+                <div class="rate"><p>$34.95</p></div>
+            </div>
+        </a>
+        <a href="">
+            <div class="div">
+                <div class="con"></div>
+                <img src="https://m.media-amazon.com/images/I/61Pu+TCm+ML._AC_UL320_.jpg" alt="">
+                <span><p>AUKEPO Car Bling Crystal Rhinestone Engine Start Ring Decals, 2 Pack Car Push Start Button Cover/Sticker, Key</p></span>
+                <div class="rate"><p>$4.99 </p></div>
+            </div>
+        </a>
+        <a href="">
+            <div class="div">
+                <div class="con"></div>
+                <img src="https://m.media-amazon.com/images/I/61r4gnv0AqL._AC_UL320_.jpg" alt="">
+                <span><p>7MAGIC Foldable Hair Dryer, Powerful Ionic Blow Dryer for Fast Drying, Travel Hair Blow</p></span>
+                <div class="rate"><p>$34.99 </p></div>
+            </div>
+        </a>
+        <a href="">
+            <div class="div">
+                <div class="con"></div>
+                <img src="https://m.media-amazon.com/images/I/61-T6dIw4KL._AC_UL320_.jpg" alt="">
+                <span><p>LAESO Portable & Foldable Neck Fan Hands Free Bladeless Personal Fan,LCD Display USB Powered 3-Speed Neck Fan</p></span>
+                <div class="rate"><p>$20.99 </p></div>
+            </div>
+        </a>
+        <a href="">
+            <div class="div">
+                <div class="con"></div>
+                <img src="https://m.media-amazon.com/images/I/61qlZ5lYlsL._AC_UL320_.jpg" alt="">
+                <span><p>Curling Iron Hair Dryer: Auto Wrap Curling Wand 1 1/4 Inch Rotating Automatic Hair</p></span>
+                <div class="rate"><p>$159</p></div>
+            </div>
+        </a>
+        <a href="">
+            <div class="div">
+                <div class="con"></div>
+                <img src="https://m.media-amazon.com/images/I/71VMAGbRLfL._AC_UL320_.jpg" alt="">
+                <span><p>Brightup Beard Trimmer for Men - 19 Piece Mens Grooming Kit with Hair</p></span>
+                <div class="rate"><p>$32.93 </p></div>
+            </div>
+        </a>
+        
+    </div>
+    <div class="img">
+        <img src="back-arrow.png" alt="">
+        <p>1 2 3 4 . . . </p>
+        <img src="next-arrow.png" alt="">
+    </div>
+    <div class="footer">
+        <a href=""><p>Back To Top</p></a>
+    </div>
+</body>
+</html>
